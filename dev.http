@@ -1,0 +1,12 @@
+POST http://127.0.0.1:7800/inventory
+Content-Type: application/json
+
+{
+    "id": 3,
+    "farm_id": 3,
+    "product_count": 234,
+    "product_price_total": 300,
+    "status": "high",
+    "updated_by": "midwestmetro",
+    "farm_active": false
+  }
